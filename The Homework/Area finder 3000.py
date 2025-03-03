@@ -35,7 +35,7 @@ class equilateral_triangle:
         self.length = length
 
     def area(self):
-        print("The area of an equilateral triangle is",self.height*(1/2*self.length),"(1/2 X Length X Height)")
+        print("The area of an equilateral triangle is",self.height*self.length,"{2 X (1/2 X Length X Height)}")
 
 
 osquare = square(5)
