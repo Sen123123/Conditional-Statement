@@ -37,7 +37,7 @@ root = Tk()
 
 root.title('image')
 
-root.geometry('600x800')
+root.geometry('600x800 ')
 
 # Try to open the image file
 
