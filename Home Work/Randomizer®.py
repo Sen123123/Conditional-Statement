@@ -3,7 +3,7 @@ import random
 
 def generate_random():
     
-    randomomizer = random.randint(100000000000, 1000000000000000000)
+    randomomizer = random.randint(10000000000, 100000000000000000)
     label.config(text=f"Random Number: {randomomizer}")
 
 root = tk.Tk()
